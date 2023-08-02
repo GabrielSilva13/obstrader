@@ -107,7 +107,7 @@ const SignalCatalogerPage = () => {
         martingale,
       } = data
 
-      const formattedTimeFrame = timeframe.match(/\d+/)[0]!
+      // const formattedTimeFrame = timeframe.match(/\d+/)[0]!
 
       const response = await api.post('/catalog', {
         timezone: UTCValue,
