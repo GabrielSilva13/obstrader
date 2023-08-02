@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.keen-slider__slide {
+  min-width: fit-content !important;
+}
+
+.css-1fdsijx-ValueContainer, .css-3w2yfm-ValueContainer {
+  height: 58px;
+}
